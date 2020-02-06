@@ -30,11 +30,8 @@ echo [ x ] Exit
 echo.
 set /p "op=>> "
 IF "%op%" == "1" GOTO start
-IF "%op%" == "2" GOTO stop
-IF "%op%"  == "3" GOTO restart
-IF "%op%"  == "4" GOTO setup
-IF "%op%"  == "x" GOTO exit
-IF not "%op%"  == "1" IF not "%op%"  == "2" IF not "%op%"  == "3" IF not "%op%"  == "4" IF not "%op%" == "x" GOTO menu
+IF "%op%" == "2" GOTO setup
+IF not "%op%"  == "x" IF not "%op%"  == "1" IF not "%op%"  == "2" GOTO menu
 :start
 start start_server.bat
 ngrok http 8080
