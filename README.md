@@ -12,6 +12,6 @@ __________________________________________________________
 __________________________________________________________
 <br>
 <p align="center">
-<img width="53%" src="https://github.com/Toxic-Omega/Ngrok-Tool/blob/master/Screenshot/Screenshot_1.png"/>
+<img width="100%" src="https://github.com/Toxic-Omega/Ngrok-Tool/blob/master/Screenshot/Screenshot_1.png"/>
 </p>
 
