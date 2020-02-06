@@ -31,6 +31,7 @@ echo.
 set /p "op=>> "
 IF "%op%" == "1" GOTO start
 IF "%op%" == "2" GOTO setup
+IF "%op%" == "x" GOTO exit
 IF not "%op%"  == "x" IF not "%op%"  == "1" IF not "%op%"  == "2" GOTO menu
 :start
 start start_server.bat
